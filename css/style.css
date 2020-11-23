@@ -5,6 +5,9 @@ nav {
 
 .jumbotron-freelancer {
   text-align: center;
+}
+
+.bg-color {
   background: #1abc9c;
   color: white;
 }
@@ -16,7 +19,7 @@ nav {
   width: 80px;
   margin-left: 10px;
   top: 20px;
-  border-bottom: 4px solid #fff;
+  border-bottom: 4px solid;
 }
 
 #jmbt-img {
@@ -35,6 +38,51 @@ h1 {
 
 .fa {
   font-size: 40px;
-  color: #fff;
-
 }
+
+.aaaa {
+  background: #eee;
+}
+
+[class*="col-"] {
+  width: 100vh;
+}
+
+
+
+/* <div class="container-fluid">
+  <div class="row">
+    <h1>portfolio</h1>
+    <span class="fa fa-star stars"></span>
+
+    <div class="col-xs-12">
+      <img src="img/house.png" class="img-rounded" alt="house">
+    </div>
+
+
+    <div class="col-xs-12">
+      <img src="img/cake.png" class="img-rounded" alt="house">
+    </div>
+
+
+    <div class="col-xs-12">
+      <img src="img/circus.png" class="img-rounded" alt="house">
+    </div>
+
+
+    <div class="col-xs-12">
+      <img src="img/supernintendo.png" class="img-rounded" alt="house">
+    </div>
+
+
+    <div class="col-xs-12">
+      <img src="img/safe.png" class="img-rounded" alt="house">
+    </div>
+
+
+    <div class="col-xs-12">
+      <img src="img/sub.png" class="img-rounded" alt="house">
+    </div>
+
+  </div>
+</div> */
