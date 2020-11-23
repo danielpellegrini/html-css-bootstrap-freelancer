@@ -1,0 +1,40 @@
+nav {
+  height: 80px;
+  background-color: #2C3E50;
+}
+
+.jumbotron-freelancer {
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+.jumbotron-freelancer span::after {
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 80px;
+  margin-left: 10px;
+  top: 20px;
+  border-bottom: 4px solid #fff;
+}
+
+#jmbt-img {
+  height: 200px;
+}
+
+span {
+  position: relative;
+  padding: 20px 0;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.fa {
+  font-size: 40px;
+  color: #fff;
+
+}
