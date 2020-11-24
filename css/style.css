@@ -12,7 +12,7 @@
   font-weight: bold;
 }
 
-.bl-navbar .navbar-brand:hover, .bl-navbar h6>span, .bl-navbar .navbar-nav>li>a:hover {
+.bl-navbar .navbar-brand:hover, .bl-navbar h6>a, .bl-navbar .navbar-nav>li>a:hover {
   color: #1abc9c;
 }
 
@@ -77,38 +77,40 @@ h2 {
 .btn-b {
   color: white;
   background-color: #1abc9c;
-  border:none;
+  border: none;
 }
 
 i {
   padding-right: 10px;
 }
 
+.bl-row {
+  margin-bottom: 30px;
+}
 
-.bl-form::placeholder, .bl-form input, .bl-form textarea{
+.bl-form::placeholder, .bl-form input, .bl-form textarea {
   color: #3A546D;
   font-size: 19px;
 }
 
-.bl-form .form-group{
+.bl-form .form-group {
   border-bottom: 1px solid #ccc;
   padding: 10px 0;
-
 }
 
-.bl-form input, .bl-form textarea{
+.bl-form input, .bl-form textarea {
   border: 0;
   border-radius: 0;
   box-shadow: none;
   padding-left: 0;
 }
 
-.bl-form{
+.bl-form {
   width: auto;
   margin: 0 auto;
 }
 
-footer {
+section {
   color: #fff;
 }
 
@@ -122,16 +124,10 @@ footer {
 }
 
 .copyright {
-  width: auto;
   height: 100px;
   background-color: #2C3E50;
 }
 
 .copyright p {
-  padding-top: 30px;
   font-size: 10px;
-}
-
-footer .jumbotron  {
-  padding-bottom: 0;
 }
