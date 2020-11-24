@@ -11,25 +11,49 @@
 </head>
 
 <body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-default bl-navbar text-uppercase">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">start bootstrap</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="">portfolio <span class="sr-only">(current)</span></a></li>
+          <li><a href="">about</a></li>
+          <li><a href="">contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- END NAVBAR -->
+
   <!-- MAIN CONTAINER -->
   <div class="container-fluid">
     <!-- HEADER -->
     <div class="row">
-      <nav></nav>
-      <div class="jumbotron jumbotron-freelancer bg-color text-uppercase">
+      <div class="jumbotron bl-jumbotron bg-color text-uppercase">
         <img src="img/avataaars.svg" id="jmbt-img" class="img-fluid" alt="avatar">
         <h1>start bootstrap</h1>
-        <span class="fa fa-star stars"></span>
+        <div class="star-line"><span class="fa fa-star"></span></div>
         <div>
           <h2>graphic artist - web designer - illustrator</h2>
         </div>
       </div>
     </div>
     <!-- END HEADER -->
-    <div class="jumbotron-freelancer text-uppercase">
+
+    <div class="bl-jumbotron text-uppercase">
       <h1>portfolio</h1>
-      <span class="fa fa-star stars"></span>
+      <div class="star-line"><span class="fa fa-star"></span></div>
     </div>
+
     <!-- IMAGES CONTAINER -->
     <div class="container">
       <div class="row">
@@ -56,10 +80,10 @@
     <!-- /IMAGES CONTAINER -->
 
     <!-- ABOUT -->
-    <div class="row ">
-      <div class="jumbotron jumbotron-freelancer bg-color">
+    <div class="row">
+      <div class="jumbotron bl-jumbotron bg-color">
         <h1 class="text-uppercase">about</h1>
-        <span class="fa fa-star stars"></span>
+        <div class="star-line"><span class="fa fa-star"></span></div>
         <div class="row about">
           <div class="col-xs-12 col-sm-6">
             <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete cource files including HTML, CSS, and JavaScript as well optional LESS stylesheets for easy customization. </p>
@@ -69,8 +93,8 @@
           </div>
         </div>
         <!-- DOWNLOAD BUTTON -->
-        <div class="col-xs-12">
-          <button type="button" class="btn btn-outline-dark "><i class="fa fa-download"></i>Download</button>
+        <div class="text-center">
+          <button type="button" class="btn-a btn-outline-dark btn-lg"><i class="fa fa-download"></i>Download</button>
         </div>
         <!-- END DOWNLOAD BUTTON -->
       </div>
@@ -78,11 +102,44 @@
     <!-- /ABOUT -->
 
     <!-- CONTACT ME -->
-    <div class="jumbotron-freelancer text-uppercase">
-      <h1>portfolio</h1>
-      <span class="fa fa-star stars"></span>
+    <div class="row">
+        <div class="bl-jumbotron text-uppercase">
+          <h1>contact me</h1>
+          <div class="star-line"><span class="fa fa-star"></span></div>
+        </div>
+        <!-- FORM -->
+        <form class="bl-form">
+          <div class="form-group">
+            <input type="email" class="form-control" placeholder="Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" placeholder="Email Address" required>
+          </div>
+          <div class="form-group">
+            <input type="tel"  class="form-control" placeholder="Phone Number" required>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+          </div>
+
+          <button type="submit" class="btn-b btn-primary btn-lg">Send</button>
+        </form>
     </div>
+    <!-- /FORM -->
+
+
+
+
     <!-- END CONTACT ME -->
+
+
+
+
+
+
+
+
+
 
   </div>
   <!-- END MAIN CONTAINER -->
