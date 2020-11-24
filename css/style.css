@@ -41,6 +41,22 @@ h1 {
   font-weight: bold;
 }
 
-.fa {
+.stars {
   font-size: 40px;
+}
+
+.about {
+  padding: 40px 200px;
+  text-align: left;
+}
+
+.btn {
+  color: white;
+  background-color: inherit;
+  border: 1px solid white;
+  padding: 10px 30px;
+}
+
+i {
+  padding-right: 10px;
 }
